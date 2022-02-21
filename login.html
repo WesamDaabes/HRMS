@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HRMS</title>
+    <style>
+      body {
+
+        background-image: url('images/Background.jpeg' );
+		background-repeat:no-repeat;
+		background-size:cover;
+        
+      }
+      form {
+        background-color: #F7EAC7;
+        position: absolute;
+        top: 60%;
+        left: 25%;
+        transform: translate(-50%,-50%);
+        box-shadow: 0px 1px 3px 3px #888888;
+		opacity:90%;
+      }
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      button {
+        background-color: #EF7821;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      button:hover {
+        opacity: 0.8;
+      }
+      
+      .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+      }
+      
+      img.avatar {
+        width: 10%;
+        border-radius: 50%;
+      }
+      
+      .container {
+        padding: 16px;
+      }
+      
+      span.psw {
+        float: right;
+        padding-top: 16px;
+      }
+      
+      @media screen and (max-width: 300px) {
+        span.psw {
+          display: block;
+          float: none;
+        }
+      }
+      h1 {
+        color: #5A3701;
+        font-weight: bold;
+        text-align:center;
+        margin-top: 14%;
+        font-size: 250%;
+        width: 55%;
+        margin-left: -3%;
+        white-space: nowrap;
+      }
+      </style>
+</head>
+<body>
+  <h1>Human Resources Managment System</h1>
+<form action="php/login.php" method="post">
+    <div class="imgcontainer">
+      <img src="images/Avatar.png" alt="Avatar" class="avatar">
+    </div>
+  
+    <div class="container">
+      <label for="eID"><b>Employee ID</b></label>
+      <input type="text" placeholder="Enter Employee ID" name="Employee_ID" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="Password" required>
+  
+      <button type="submit">Login</button>
+    </div>
+  </form>
+</body>
+</html>

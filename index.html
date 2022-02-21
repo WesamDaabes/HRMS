@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href=" https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>HRMS</title>
+    
+    <style>
+
+      body{
+      margin: 0;
+      padding: 0;
+      font-family: "montserrat",sans-serif;
+      }
+      .first-page{
+     
+      width: 100;
+      height: 100vh;
+      position: relative;
+      overflow: hidden;
+      }
+      .first-page::after{
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(images/logo.png);
+      background-size: cover;
+      animation: anim 25s linear infinite;
+      }
+      @keyframes anim {
+      50%{
+      transform: scale(2);
+      }
+      100%{
+      transform: scale(1);
+      }
+      }
+      .page-content{
+      position: absolute;
+
+      
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 1;
+      width: 100%;
+      max-width: 800px;
+      text-align: center;
+      padding: 0 40px;
+      box-sizing: border-box;
+      }
+      .page-content h1{
+      color: #EF7821;
+      text-transform: uppercase;
+      font-size: 50px;
+      font-weight: 900;
+      margin-bottom: 20px;
+      }
+      .page-content p{
+      color: #fff;
+      margin-bottom: 20px;
+      }
+      .page-content a{
+      display: inline-block;
+      text-decoration: none;
+      color: #EF7821;
+      border: 2px solid #EF7821;
+
+      
+      text-transform: uppercase;
+      padding: 10px 20px;
+      transition: 0.4s linear;
+      }
+      .page-content a:hover{
+      color: #fff;
+      background: #EF7821;
+      }
+      .text{
+      padding: 10px;
+      text-align: justify;
+      }
+      .text div{
+      margin-bottom: 6px;
+      }
+      .about{
+      border: 2px solid #EF7821;
+      }
+      .contact{
+      border: 2px solid #EF7821;
+      }
+      .about:hover{
+      background-color: #EF7821;
+      }
+      .contact:hover{
+     
+      background-color: #EF7821;
+      }
+      .footer {
+      padding: 5px;
+      text-align: center;
+      background: #ddd;
+      background-color: #efefef;
+      flex: 0 0 50px;
+      margin-top: auto;
+      opacity: .5;
+      }
+      .WebpageButton {
+      background-color: transparent;
+      background-repeat: no-repeat;
+      border: none;
+      cursor: pointer;
+      overflow: hidden;
+      outline: none;
+      }
+      </style>
+      </head>
+      <body>
+      <div class="first-page">
+      <div class="page-content">
+      <h1>Human Resources Management System</h1>
+ 
+      
+      <p></p>
+      <a href="http://localhost/HRMS/login.html">Get Started</a>
+      </div>
+      </div>
+      <div class="container-fluid">
+      <div class="row">
+      <div class="about col-lg-6" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="50">
+      <h3>About Us :</h3>
+      <p>The HR Management system is one of the most important systems that must be available in every company because it will save time and effort to complete some simple transactions. Job description is the completion of some transactions online, the most important of which is 1) Request a leave 2) Changing password 3) Showing the salary and its value for each employee per month 4) Each employee can register with the employee's identification number and password 5) Each employee can edit his personal info.</p>
+      </div>
+      <div class="space col-lg-1">
+      </div>
+      <div class="contact col-lg-5" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="50">
+      <h3>Contact Us :</h3>
+      <h5>Human resourses Management Project</h5>
+      <p>Fahed,Wesam,Malik</p>
+      <p>Mobile Number : +962786703615</p>
+      <p>Email:HRMS@Gmail.com</p>
+
+      </div>
+      </div>
+      </div>
+
+      <div class="footer">
+      <h4>Philadephia Uninversity Human Resourses Managment Project</h4>
+      <input class="WebpageButton" type="button" onclick="location.href='https://www.philadelphia.edu.jo';" value="Go To University Webpage" />
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+      </body>
+</html>
